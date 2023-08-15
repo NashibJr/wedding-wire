@@ -9,6 +9,7 @@ import Brides from "./Links/Brides";
 import Grooms from "./Links/Grooms";
 import Blogs from "./Links/Blogs";
 import PlanningHiddenLinks from "@/hiddenlinks/PlanningHiddenLinks";
+import WeddingvenHiddenlinks from "@/hiddenlinks/WeddingvenHiddenlinks";
 
 const NavigationBar = () => {
   return (
@@ -68,7 +69,8 @@ const NavigationBar = () => {
           </div>
         </div>
       </div>
-      <PlanningHiddenLinks />
+      {/* <PlanningHiddenLinks /> */}
+      <WeddingvenHiddenlinks />
     </div>
   );
 };
