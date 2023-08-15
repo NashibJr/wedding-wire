@@ -1,4 +1,3 @@
-import React from "react";
 import HiddenLinks from "./HiddenLinks";
 import Link from "@/components/Links/Link";
 import WeddingVendComponent from "@/components/WeddingVendComponent";
