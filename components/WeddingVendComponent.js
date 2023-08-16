@@ -7,6 +7,10 @@ const WeddingVendComponent = ({
   routeOne,
   routeTwo,
   routeThree,
+  labelFour,
+  routeFour,
+  labelFive,
+  routeFive,
 }) => {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
@@ -25,6 +29,18 @@ const WeddingVendComponent = ({
       <Link
         label={labelThree}
         route={routeThree}
+        style={{ marginTop: 15 }}
+        _class="hover:text-red-800"
+      />
+      <Link
+        label={labelFour}
+        route={routeFour}
+        style={{ marginTop: 15 }}
+        _class="hover:text-red-800"
+      />
+      <Link
+        label={labelFive}
+        route={routeFive}
         style={{ marginTop: 15 }}
         _class="hover:text-red-800"
       />

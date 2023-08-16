@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.homepage {
+  background: url("/women.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
